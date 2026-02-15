@@ -1,0 +1,8 @@
+# VHDL Parser Backend
+# pytest: tests
+pytest>=7.0.0
+# Tree-sitter: AST 기반 파싱 (REQ-02, REQ-09)
+tree-sitter>=0.25.0
+tree-sitter-vhdl>=1.2.0
+# (추후) graphviz: dot_exporter
+# graphviz>=0.20.0
