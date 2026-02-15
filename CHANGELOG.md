@@ -29,6 +29,15 @@
 
 ---
 
+## [보완] README, requirements, CI
+
+- **README.md (루트):** 프로젝트 소개, 클론/설치/실행/테스트 방법, docs 링크, 브랜치 전략 권장
+- **requirements.txt:** pytest, tree-sitter, tree-sitter-vhdl 버전 고정 (pip 설치 재현용)
+- **.github/workflows/python-test.yml:** push/PR 시 pytest 자동 실행 (Python 3.10, 3.11)
+- **.gitignore:** `.vscode/` 이미 포함됨 (에디터 설정 제외)
+
+---
+
 ## 커밋 메시지 규칙 (앞으로)
 
 - `docs: ...` — 문서 수정
